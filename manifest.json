@@ -1,14 +1,14 @@
 {
 	"AppDescription": {
-		"en": "A tutorial app for Spotify Apps API"
+		"en": "Radioboxify uses NPO radiobox"
 	},
 	"AppIcon": {
 		"36x18": "tutorial.png"
 	},
 	"AppName": {
-		"en": "Spotify Apps API Tutorial"
+		"en": "radioboxify"
 	},
-	"BundleIdentifier": "api-tutorial",
+	"BundleIdentifier": "radioboxify",
 	"BundleType": "Application",
 	"BundleVersion": "0.1",
 	"DefaultTabs": [
@@ -17,13 +17,7 @@
 			"title": {
 				"en": "Home"
 			}
-		},
-		{
-			"arguments": "tabs",
-			"title": {
-				"en": "How to use tabs"
-			}
-        }
+		}
 	],
 	"Dependencies": {
 	  "api": "0.2.3",
@@ -47,10 +41,11 @@
 	    "http://search.twitter.com/",
 	    "http://amsterdam.last.fm",
 	    "http://ws.audioscrobbler.com/",
-	    "http://developer.echonest.com"
+	    "http://developer.echonest.com",
+	    "http://radiobox2.omroep.nl"
 	],
 	"SupportedLanguages": [
 		"en"
 	],
-	"VendorIdentifier": "co.mager"
+	"VendorIdentifier": "co.bjernsting"
 }
